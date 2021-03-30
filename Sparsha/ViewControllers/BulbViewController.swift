@@ -12,12 +12,14 @@ class BulbViewController: UIViewController{
     @IBOutlet weak var txtKelvinInput: UITextField!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var bgView: UIView!
+    @IBOutlet weak var powerSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //bgView.roundCorners(corners: [.topLeft, .topRight], radius: 10)
         bgView.layer.cornerRadius = 10
         bgView.layer.masksToBounds = true
+        powerSwitch.addTarget(self, action: #selector(switchChanged(mySwitch:)), for: UIControl.Event.valueChanged)
     }
     
     @IBAction func sendInput(_ sender: Any) {
@@ -29,6 +31,17 @@ class BulbViewController: UIViewController{
             requestData(param: param)
         }
     }
+    
+    @objc func switchChanged(mySwitch: UISwitch) {
+        if mySwitch.isOn{
+            let param: [String: Any] = ["power": "on"]
+            requestData(param: param)
+        } else{
+            let param: [String: Any] = ["power": "off"]
+            requestData(param: param)
+        }
+    }
+    
     
     func requestData(param: [String: Any]){
         WebService.webRequest(.state, parameters: param) { (response) in
