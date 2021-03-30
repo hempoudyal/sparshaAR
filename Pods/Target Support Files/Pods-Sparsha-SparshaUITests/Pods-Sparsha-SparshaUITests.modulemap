@@ -1,0 +1,6 @@
+framework module Pods_Sparsha_SparshaUITests {
+  umbrella header "Pods-Sparsha-SparshaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

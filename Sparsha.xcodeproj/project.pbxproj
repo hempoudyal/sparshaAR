@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F21BB89D4417BA7830B8B8 /* Pods_Sparsha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D805806710510D296DDE4F /* Pods_Sparsha.framework */; };
+		4F0B88E60992DB2E3BE425EE /* Pods_Sparsha_SparshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144BC3183B160F72B98FBDB7 /* Pods_Sparsha_SparshaUITests.framework */; };
+		99449EC026127B2800B48F3B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EBF26127B2800B48F3B /* WebService.swift */; };
+		99449EC826127B7100B48F3B /* API_Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EC726127B7100B48F3B /* API_Router.swift */; };
+		99449EDD2612856100B48F3B /* BulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EDC2612856100B48F3B /* BulbViewController.swift */; };
+		99449EEA261346E200B48F3B /* BulbCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EE9261346E100B48F3B /* BulbCollectionViewCell.swift */; };
+		99449EF226137AF100B48F3B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EF126137AF100B48F3B /* WelcomeViewController.swift */; };
+		99449EFB261398B500B48F3B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99449EFA261398B400B48F3B /* UIColor.swift */; };
+		996A3D742610916800405D0C /* TulipsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 996A3D732610916800405D0C /* TulipsScene.sks */; };
+		9978CE2125E3015F0052C034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9978CE2025E3015F0052C034 /* AppDelegate.swift */; };
+		9978CE2325E3015F0052C034 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9978CE2225E3015F0052C034 /* art.scnassets */; };
+		9978CE2525E3015F0052C034 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9978CE2425E3015F0052C034 /* HomeViewController.swift */; };
+		9978CE2825E3015F0052C034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9978CE2625E3015F0052C034 /* Main.storyboard */; };
+		9978CE2A25E301620052C034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9978CE2925E301620052C034 /* Assets.xcassets */; };
+		9978CE2D25E301620052C034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9978CE2B25E301620052C034 /* LaunchScreen.storyboard */; };
+		9978CE3825E301630052C034 /* SparshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9978CE3725E301630052C034 /* SparshaTests.swift */; };
+		9978CE4325E301630052C034 /* SparshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9978CE4225E301630052C034 /* SparshaUITests.swift */; };
+		997F766B25E6EEA00007A319 /* product.sks in Resources */ = {isa = PBXBuildFile; fileRef = 997F766A25E6EEA00007A319 /* product.sks */; };
+		C446CA751AE5D2252A46A310 /* Pods_SparshaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B489D9174DEBF22AB22729 /* Pods_SparshaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9978CE3425E301630052C034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9978CE1525E3015F0052C034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9978CE1C25E3015F0052C034;
+			remoteInfo = Sparsha;
+		};
+		9978CE3F25E301630052C034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9978CE1525E3015F0052C034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9978CE1C25E3015F0052C034;
+			remoteInfo = Sparsha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040DAFD927634E5C3346EC7A /* Pods-Sparsha-SparshaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparsha-SparshaUITests.release.xcconfig"; path = "Target Support Files/Pods-Sparsha-SparshaUITests/Pods-Sparsha-SparshaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		144BC3183B160F72B98FBDB7 /* Pods_Sparsha_SparshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparsha_SparshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B489D9174DEBF22AB22729 /* Pods_SparshaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparshaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402C6BA5566235CF7C6BE2B7 /* Pods-Sparsha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparsha.release.xcconfig"; path = "Target Support Files/Pods-Sparsha/Pods-Sparsha.release.xcconfig"; sourceTree = "<group>"; };
+		99449EBF26127B2800B48F3B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		99449EC726127B7100B48F3B /* API_Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Router.swift; sourceTree = "<group>"; };
+		99449EDC2612856100B48F3B /* BulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbViewController.swift; sourceTree = "<group>"; };
+		99449EE9261346E100B48F3B /* BulbCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbCollectionViewCell.swift; sourceTree = "<group>"; };
+		99449EF126137AF100B48F3B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		99449EFA261398B400B48F3B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		996A3D732610916800405D0C /* TulipsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TulipsScene.sks; sourceTree = "<group>"; };
+		9978CE1D25E3015F0052C034 /* Sparsha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparsha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9978CE2025E3015F0052C034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9978CE2225E3015F0052C034 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9978CE2425E3015F0052C034 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9978CE2725E3015F0052C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9978CE2925E301620052C034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9978CE2C25E301620052C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9978CE2E25E301620052C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9978CE3325E301630052C034 /* SparshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9978CE3725E301630052C034 /* SparshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparshaTests.swift; sourceTree = "<group>"; };
+		9978CE3925E301630052C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9978CE3E25E301630052C034 /* SparshaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparshaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9978CE4225E301630052C034 /* SparshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparshaUITests.swift; sourceTree = "<group>"; };
+		9978CE4425E301630052C034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997F766A25E6EEA00007A319 /* product.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = product.sks; sourceTree = "<group>"; };
+		B0AD2E4A2ECFAD48478B4BA6 /* Pods-Sparsha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparsha.debug.xcconfig"; path = "Target Support Files/Pods-Sparsha/Pods-Sparsha.debug.xcconfig"; sourceTree = "<group>"; };
+		C158E21CF9AA8B6CC8864832 /* Pods-SparshaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparshaTests.debug.xcconfig"; path = "Target Support Files/Pods-SparshaTests/Pods-SparshaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D805806710510D296DDE4F /* Pods_Sparsha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparsha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F346F25197952861782C074F /* Pods-Sparsha-SparshaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparsha-SparshaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sparsha-SparshaUITests/Pods-Sparsha-SparshaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA02768D21042FBDEEDA78D0 /* Pods-SparshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparshaTests.release.xcconfig"; path = "Target Support Files/Pods-SparshaTests/Pods-SparshaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9978CE1A25E3015F0052C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F21BB89D4417BA7830B8B8 /* Pods_Sparsha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE3025E301630052C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C446CA751AE5D2252A46A310 /* Pods_SparshaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE3B25E301630052C034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0B88E60992DB2E3BE425EE /* Pods_Sparsha_SparshaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54513D637133EFB0436B6ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD2E4A2ECFAD48478B4BA6 /* Pods-Sparsha.debug.xcconfig */,
+				402C6BA5566235CF7C6BE2B7 /* Pods-Sparsha.release.xcconfig */,
+				F346F25197952861782C074F /* Pods-Sparsha-SparshaUITests.debug.xcconfig */,
+				040DAFD927634E5C3346EC7A /* Pods-Sparsha-SparshaUITests.release.xcconfig */,
+				C158E21CF9AA8B6CC8864832 /* Pods-SparshaTests.debug.xcconfig */,
+				FA02768D21042FBDEEDA78D0 /* Pods-SparshaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99449EBE26127B1800B48F3B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				99449EBF26127B2800B48F3B /* WebService.swift */,
+				99449EC726127B7100B48F3B /* API_Router.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		99449EDA2612851200B48F3B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99449EF126137AF100B48F3B /* WelcomeViewController.swift */,
+				9978CE2425E3015F0052C034 /* HomeViewController.swift */,
+				99449EDC2612856100B48F3B /* BulbViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		99449EE7261346CA00B48F3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99449EE8261346CF00B48F3B /* Collection View Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99449EE8261346CF00B48F3B /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				99449EE9261346E100B48F3B /* BulbCollectionViewCell.swift */,
+			);
+			path = "Collection View Cell";
+			sourceTree = "<group>";
+		};
+		99449EF92613989900B48F3B /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				99449EFA261398B400B48F3B /* UIColor.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		9978CE1425E3015F0052C034 = {
+			isa = PBXGroup;
+			children = (
+				9978CE1F25E3015F0052C034 /* Sparsha */,
+				9978CE3625E301630052C034 /* SparshaTests */,
+				9978CE4125E301630052C034 /* SparshaUITests */,
+				9978CE1E25E3015F0052C034 /* Products */,
+				54513D637133EFB0436B6ABE /* Pods */,
+				C9D54027D0B12033785B441B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9978CE1E25E3015F0052C034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9978CE1D25E3015F0052C034 /* Sparsha.app */,
+				9978CE3325E301630052C034 /* SparshaTests.xctest */,
+				9978CE3E25E301630052C034 /* SparshaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9978CE1F25E3015F0052C034 /* Sparsha */ = {
+			isa = PBXGroup;
+			children = (
+				99449EF92613989900B48F3B /* UIExtensions */,
+				99449EE7261346CA00B48F3B /* View */,
+				99449EBE26127B1800B48F3B /* WebService */,
+				9978CE2025E3015F0052C034 /* AppDelegate.swift */,
+				99449EDA2612851200B48F3B /* ViewControllers */,
+				9978CE2225E3015F0052C034 /* art.scnassets */,
+				996A3D732610916800405D0C /* TulipsScene.sks */,
+				997F766A25E6EEA00007A319 /* product.sks */,
+				9978CE2625E3015F0052C034 /* Main.storyboard */,
+				9978CE2925E301620052C034 /* Assets.xcassets */,
+				9978CE2B25E301620052C034 /* LaunchScreen.storyboard */,
+				9978CE2E25E301620052C034 /* Info.plist */,
+			);
+			path = Sparsha;
+			sourceTree = "<group>";
+		};
+		9978CE3625E301630052C034 /* SparshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9978CE3725E301630052C034 /* SparshaTests.swift */,
+				9978CE3925E301630052C034 /* Info.plist */,
+			);
+			path = SparshaTests;
+			sourceTree = "<group>";
+		};
+		9978CE4125E301630052C034 /* SparshaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9978CE4225E301630052C034 /* SparshaUITests.swift */,
+				9978CE4425E301630052C034 /* Info.plist */,
+			);
+			path = SparshaUITests;
+			sourceTree = "<group>";
+		};
+		C9D54027D0B12033785B441B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D805806710510D296DDE4F /* Pods_Sparsha.framework */,
+				144BC3183B160F72B98FBDB7 /* Pods_Sparsha_SparshaUITests.framework */,
+				29B489D9174DEBF22AB22729 /* Pods_SparshaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9978CE1C25E3015F0052C034 /* Sparsha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9978CE4725E301630052C034 /* Build configuration list for PBXNativeTarget "Sparsha" */;
+			buildPhases = (
+				6E5BD7DED5DE67AB7E9F010F /* [CP] Check Pods Manifest.lock */,
+				9978CE1925E3015F0052C034 /* Sources */,
+				9978CE1A25E3015F0052C034 /* Frameworks */,
+				9978CE1B25E3015F0052C034 /* Resources */,
+				84B6546EC95BDBE2BAC4EA4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sparsha;
+			productName = Sparsha;
+			productReference = 9978CE1D25E3015F0052C034 /* Sparsha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9978CE3225E301630052C034 /* SparshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9978CE4A25E301630052C034 /* Build configuration list for PBXNativeTarget "SparshaTests" */;
+			buildPhases = (
+				13ACBBB74D9B91BE5583B227 /* [CP] Check Pods Manifest.lock */,
+				9978CE2F25E301630052C034 /* Sources */,
+				9978CE3025E301630052C034 /* Frameworks */,
+				9978CE3125E301630052C034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9978CE3525E301630052C034 /* PBXTargetDependency */,
+			);
+			name = SparshaTests;
+			productName = SparshaTests;
+			productReference = 9978CE3325E301630052C034 /* SparshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9978CE3D25E301630052C034 /* SparshaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9978CE4D25E301630052C034 /* Build configuration list for PBXNativeTarget "SparshaUITests" */;
+			buildPhases = (
+				4F37170F939BDB4F50D005F6 /* [CP] Check Pods Manifest.lock */,
+				9978CE3A25E301630052C034 /* Sources */,
+				9978CE3B25E301630052C034 /* Frameworks */,
+				9978CE3C25E301630052C034 /* Resources */,
+				3C11F4C8F5A35A2303EB87AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9978CE4025E301630052C034 /* PBXTargetDependency */,
+			);
+			name = SparshaUITests;
+			productName = SparshaUITests;
+			productReference = 9978CE3E25E301630052C034 /* SparshaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9978CE1525E3015F0052C034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9978CE1C25E3015F0052C034 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9978CE3225E301630052C034 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9978CE1C25E3015F0052C034;
+					};
+					9978CE3D25E301630052C034 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9978CE1C25E3015F0052C034;
+					};
+				};
+			};
+			buildConfigurationList = 9978CE1825E3015F0052C034 /* Build configuration list for PBXProject "Sparsha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9978CE1425E3015F0052C034;
+			productRefGroup = 9978CE1E25E3015F0052C034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9978CE1C25E3015F0052C034 /* Sparsha */,
+				9978CE3225E301630052C034 /* SparshaTests */,
+				9978CE3D25E301630052C034 /* SparshaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9978CE1B25E3015F0052C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997F766B25E6EEA00007A319 /* product.sks in Resources */,
+				996A3D742610916800405D0C /* TulipsScene.sks in Resources */,
+				9978CE2325E3015F0052C034 /* art.scnassets in Resources */,
+				9978CE2D25E301620052C034 /* LaunchScreen.storyboard in Resources */,
+				9978CE2A25E301620052C034 /* Assets.xcassets in Resources */,
+				9978CE2825E3015F0052C034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE3125E301630052C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE3C25E301630052C034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13ACBBB74D9B91BE5583B227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparshaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C11F4C8F5A35A2303EB87AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparsha-SparshaUITests/Pods-Sparsha-SparshaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparsha-SparshaUITests/Pods-Sparsha-SparshaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sparsha-SparshaUITests/Pods-Sparsha-SparshaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F37170F939BDB4F50D005F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparsha-SparshaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E5BD7DED5DE67AB7E9F010F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparsha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B6546EC95BDBE2BAC4EA4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparsha/Pods-Sparsha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparsha/Pods-Sparsha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sparsha/Pods-Sparsha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9978CE1925E3015F0052C034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99449EC026127B2800B48F3B /* WebService.swift in Sources */,
+				99449EC826127B7100B48F3B /* API_Router.swift in Sources */,
+				9978CE2525E3015F0052C034 /* HomeViewController.swift in Sources */,
+				9978CE2125E3015F0052C034 /* AppDelegate.swift in Sources */,
+				99449EDD2612856100B48F3B /* BulbViewController.swift in Sources */,
+				99449EFB261398B500B48F3B /* UIColor.swift in Sources */,
+				99449EEA261346E200B48F3B /* BulbCollectionViewCell.swift in Sources */,
+				99449EF226137AF100B48F3B /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE2F25E301630052C034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9978CE3825E301630052C034 /* SparshaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978CE3A25E301630052C034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9978CE4325E301630052C034 /* SparshaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9978CE3525E301630052C034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9978CE1C25E3015F0052C034 /* Sparsha */;
+			targetProxy = 9978CE3425E301630052C034 /* PBXContainerItemProxy */;
+		};
+		9978CE4025E301630052C034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9978CE1C25E3015F0052C034 /* Sparsha */;
+			targetProxy = 9978CE3F25E301630052C034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9978CE2625E3015F0052C034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9978CE2725E3015F0052C034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9978CE2B25E301620052C034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9978CE2C25E301620052C034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9978CE4525E301630052C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9978CE4625E301630052C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9978CE4825E301630052C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AD2E4A2ECFAD48478B4BA6 /* Pods-Sparsha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = Sparsha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.Sparsha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9978CE4925E301630052C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402C6BA5566235CF7C6BE2B7 /* Pods-Sparsha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = Sparsha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.Sparsha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9978CE4B25E301630052C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C158E21CF9AA8B6CC8864832 /* Pods-SparshaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = SparshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.SparshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparsha.app/Sparsha";
+			};
+			name = Debug;
+		};
+		9978CE4C25E301630052C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA02768D21042FBDEEDA78D0 /* Pods-SparshaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = SparshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.SparshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparsha.app/Sparsha";
+			};
+			name = Release;
+		};
+		9978CE4E25E301630052C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F346F25197952861782C074F /* Pods-Sparsha-SparshaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = SparshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.SparshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sparsha;
+			};
+			name = Debug;
+		};
+		9978CE4F25E301630052C034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040DAFD927634E5C3346EC7A /* Pods-Sparsha-SparshaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QZAD6AG54;
+				INFOPLIST_FILE = SparshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hempoudyal.SparshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sparsha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9978CE1825E3015F0052C034 /* Build configuration list for PBXProject "Sparsha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9978CE4525E301630052C034 /* Debug */,
+				9978CE4625E301630052C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9978CE4725E301630052C034 /* Build configuration list for PBXNativeTarget "Sparsha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9978CE4825E301630052C034 /* Debug */,
+				9978CE4925E301630052C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9978CE4A25E301630052C034 /* Build configuration list for PBXNativeTarget "SparshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9978CE4B25E301630052C034 /* Debug */,
+				9978CE4C25E301630052C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9978CE4D25E301630052C034 /* Build configuration list for PBXNativeTarget "SparshaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9978CE4E25E301630052C034 /* Debug */,
+				9978CE4F25E301630052C034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9978CE1525E3015F0052C034 /* Project object */;
+}
